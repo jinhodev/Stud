@@ -1,18 +1,13 @@
+import React from "react";
 import './App.css';
-import { Header } from './components/Header';
-import { Arrow } from './components/Arrow';
-import { Album } from './components/Album';
+import Router from "./shared/Router";
 
 
 function App() {
   return (
-    <div className="App">
-        <Header/>
-      <div className='container'>
-        <Arrow/>
-        <Album/>
-      </div>
 
+    <div className="App">
+      <Router />
     </div>
   );
 }
